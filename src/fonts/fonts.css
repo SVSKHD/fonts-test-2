@@ -1,8 +1,8 @@
 @font-face{
     font-family: "Masque";
-    src:url("Masque.otf");
+    src:url("./Masque.otf");
 }
 @font-face{
     font-family: "lulo";
-    src: url("lulo.otf");
+    src: url("./lulo.otf");
 }
