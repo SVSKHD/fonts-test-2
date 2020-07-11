@@ -1,9 +1,14 @@
 body{
     text-align: center;
 }
-.font{
+.mr-auto{
+    font-family: Masque;
+    font-size: 1.8rem;
+    color: #5cb85c ;
+}
+.display-3{
     font-family: "Masque";
 }
-.f{
-    font-family: "lulo";
+.fsh{
+    margin: 0.2rem;
 }
