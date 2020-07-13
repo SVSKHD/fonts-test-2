@@ -11,7 +11,7 @@ export default function Footer() {
         <Container fluid>
           <Row>
           <Col>
-          <h3>Copyright  {year}</h3>
+          <h3>Copyright  © {year}</h3>
           </Col>
           <Col>
           <h3>Our Social handle</h3>

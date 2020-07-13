@@ -12,11 +12,11 @@ export default function Headnav() {
         <Button outline color="success" onClick={toggleNavbar}><FaAngleDoubleDown size={28}/> </Button> 
         <Collapse isOpen={!collapsed} navbar>
         <Nav navbar>
-        <NavItem>
-              <NavLink className="navfont">Components</NavLink>
+        <NavItem className="navfont">
+              <NavLink >Components</NavLink>
         </NavItem>
-        <NavItem>
-              <NavLink className="navfont">TechStory</NavLink>
+        <NavItem className="navfont">
+              <NavLink >TechStory</NavLink>
         </NavItem>
         </Nav>
         </Collapse>

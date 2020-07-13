@@ -5,6 +5,14 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
+      {
+      resolve: `gatsby-source-strapi`,
+       options: {
+      apiURL: `http://localhost:1337`,
+      queryLimit: 10000, // Default to 100
+      contentTypes: [`blogs`],
+    },
+      },
     {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
@@ -33,11 +41,11 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/SV.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }

@@ -4,10 +4,24 @@ body{
 .mr-auto{
     font-family: Masque;
     font-size: 1.8rem;
-    color: #5cb85c ;
+    color: #37af37 ;
+}
+.navfont{
+    font-family: Helvetica;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: #707070;
 }
 .display-3{
     font-family: "Masque";
+    color:#37af37;
+}
+.type{
+    font-size: 2rem;
+    font-family: Helvetica;
+}
+.card{
+    padding: 5rem 1rem;
 }
 .fsh{
     margin: 0.2rem;
